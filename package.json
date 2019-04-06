@@ -24,7 +24,13 @@
     "body-parser": "1.14.1",
     "express": "4.13.3",
     "fs": "0.0.2",
-    "path": "0.12.7"
+    "path": "0.12.7",
+    "negotiator": ">=0.6.1",
+    "randomatic": ">=3.0.0",
+    "lodash": ">=4.17.11",
+    "fresh": ">=0.5.2",
+    "mime": ">=1.4.1",
+    "moment": ">=2.19.3"
   },
   "devDependencies": {
     "concurrently": "2.2.0"
