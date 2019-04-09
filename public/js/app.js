@@ -35,7 +35,7 @@ class TimersDashboard extends React.Component {
     this.setState({
       timers: this.state.timers.map(timer => {
         if (timer.id === attrs.id) {
-          return Object.assigns({}, timer, {
+          return Object.assign({}, timer, {
             title: attrs.title,
             project: attrs.project
           });
